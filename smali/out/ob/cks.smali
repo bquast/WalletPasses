@@ -1,0 +1,429 @@
+.class final Lob/cks;
+.super Lob/cjw;
+.source "SourceFile"
+
+
+# static fields
+.field private static a:[I
+
+.field private static b:[B
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .prologue
+    .line 953
+    const/16 v0, 0x40
+
+    new-array v0, v0, [I
+
+    fill-array-data v0, :array_14
+
+    sput-object v0, Lob/cks;->a:[I
+
+    .line 960
+    const/16 v0, 0x100
+
+    new-array v0, v0, [B
+
+    fill-array-data v0, :array_98
+
+    sput-object v0, Lob/cks;->b:[B
+
+    return-void
+
+    .line 953
+    nop
+
+    :array_14
+    .array-data 4
+        0x20c7e1
+        0x20c7e4
+        0x20c8c7
+        0x20dae1
+        0x20dded
+        0x20e1e1
+        0x20e3e4
+        0x20e6c7
+        0xc720c7
+        0xc7c120
+        0xc7ca20
+        0xc7d120
+        0xc7e120
+        0xc7e1c3
+        0xc7e1c7
+        0xc7e1c8
+        0xc7e1ca
+        0xc7e1cc
+        0xc7e1cd
+        0xc7e1cf
+        0xc7e1d3
+        0xc7e1da
+        0xc7e1de
+        0xc7e1e3
+        0xc7e1e6
+        0xc7e1ed
+        0xc7e320
+        0xc7e420
+        0xc7e4ca
+        0xc820c7
+        0xc920c7
+        0xc920dd
+        0xc920e1
+        0xc920e3
+        0xc920e6
+        0xca20c7
+        0xcf20c7
+        0xcfc920
+        0xd120c7
+        0xd1c920
+        0xd320c7
+        0xda20c7
+        0xdae1ec
+        0xdded20
+        0xe120c7
+        0xe1c920
+        0xe1ec20
+        0xe1ed20
+        0xe320c7
+        0xe3c720
+        0xe3c920
+        0xe3e420
+        0xe420c7
+        0xe520c7
+        0xe5c720
+        0xe6c7e1
+        0xe6e420
+        0xec20c7
+        0xed20c7
+        0xed20e3
+        0xed20e6
+        0xedc920
+        0xedd120
+        0xede420
+    .end array-data
+
+    .line 960
+    :array_98
+    .array-data 1
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x0t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x61t
+        0x62t
+        0x63t
+        0x64t
+        0x65t
+        0x66t
+        0x67t
+        0x68t
+        0x69t
+        0x6at
+        0x6bt
+        0x6ct
+        0x6dt
+        0x6et
+        0x6ft
+        0x70t
+        0x71t
+        0x72t
+        0x73t
+        0x74t
+        0x75t
+        0x76t
+        0x77t
+        0x78t
+        0x79t
+        0x7at
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x61t
+        0x62t
+        0x63t
+        0x64t
+        0x65t
+        0x66t
+        0x67t
+        0x68t
+        0x69t
+        0x6at
+        0x6bt
+        0x6ct
+        0x6dt
+        0x6et
+        0x6ft
+        0x70t
+        0x71t
+        0x72t
+        0x73t
+        0x74t
+        0x75t
+        0x76t
+        0x77t
+        0x78t
+        0x79t
+        0x7at
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        -0x7ft
+        0x20t
+        -0x7dt
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        -0x78t
+        0x20t
+        -0x76t
+        0x20t
+        -0x64t
+        -0x73t
+        -0x72t
+        -0x71t
+        -0x70t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        -0x68t
+        0x20t
+        -0x66t
+        0x20t
+        -0x64t
+        0x20t
+        0x20t
+        -0x61t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        -0x56t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        -0x4bt
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        -0x40t
+        -0x3ft
+        -0x3et
+        -0x3dt
+        -0x3ct
+        -0x3bt
+        -0x3at
+        -0x39t
+        -0x38t
+        -0x37t
+        -0x36t
+        -0x35t
+        -0x34t
+        -0x33t
+        -0x32t
+        -0x31t
+        -0x30t
+        -0x2ft
+        -0x2et
+        -0x2dt
+        -0x2ct
+        -0x2bt
+        -0x2at
+        0x20t
+        -0x28t
+        -0x27t
+        -0x26t
+        -0x25t
+        -0x24t
+        -0x23t
+        -0x22t
+        -0x21t
+        -0x20t
+        -0x1ft
+        -0x1et
+        -0x1dt
+        -0x1ct
+        -0x1bt
+        -0x1at
+        -0x19t
+        -0x18t
+        -0x17t
+        -0x16t
+        -0x15t
+        -0x14t
+        -0x13t
+        -0x12t
+        -0x11t
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        -0xct
+        0x20t
+        0x20t
+        0x20t
+        0x20t
+        -0x7t
+        0x20t
+        -0x5t
+        -0x4t
+        0x20t
+        0x20t
+        -0x1t
+    .end array-data
+.end method
+
+.method constructor <init>()V
+    .registers 1
+
+    .prologue
+    .line 951
+    invoke-direct {p0}, Lob/cjw;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/lang/String;
+    .registers 2
+
+    .prologue
+    .line 997
+    const-string v0, "windows-1256"
+
+    return-object v0
+.end method
+
+.method public final a(Lob/cja;)Lob/cjc;
+    .registers 4
+
+    .prologue
+    .line 1007
+    sget-object v0, Lob/cks;->a:[I
+
+    sget-object v1, Lob/cks;->b:[B
+
+    invoke-static {p1, v0, v1}, Lob/cks;->a(Lob/cja;[I[B)I
+
+    move-result v1
+
+    .line 1008
+    if-nez v1, :cond_c
+
+    const/4 v0, 0x0
+
+    :goto_b
+    return-object v0
+
+    :cond_c
+    new-instance v0, Lob/cjc;
+
+    invoke-direct {v0, p1, p0, v1}, Lob/cjc;-><init>(Lob/cja;Lob/ckw;I)V
+
+    goto :goto_b
+.end method
+
+.method public final b()Ljava/lang/String;
+    .registers 2
+
+    .prologue
+    .line 1002
+    const-string v0, "ar"
+
+    return-object v0
+.end method

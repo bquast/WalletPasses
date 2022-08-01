@@ -1,0 +1,189 @@
+.class public Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity$$ViewBinder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lob/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lob/p",
+        "<TT;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .registers 1
+
+    .prologue
+    .line 8
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bind(Lob/k;Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;Ljava/lang/Object;)V
+    .registers 10
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lob/k;",
+            "TT;",
+            "Ljava/lang/Object;",
+            ")V"
+        }
+    .end annotation
+
+    .prologue
+    const v5, 0x7f100093
+
+    const v4, 0x7f100092
+
+    const v3, 0x7f100091
+
+    const v2, 0x7f100090
+
+    .line 11
+    const-string v0, "field \'toolbar\'"
+
+    invoke-virtual {p1, p3, v2, v0}, Lob/k;->a(Ljava/lang/Object;ILjava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/View;
+
+    .line 12
+    const-string v1, "field \'toolbar\'"
+
+    invoke-virtual {p1, v0, v2, v1}, Lob/k;->a(Landroid/view/View;ILjava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/support/v7/widget/Toolbar;
+
+    iput-object v0, p2, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;->toolbar:Landroid/support/v7/widget/Toolbar;
+
+    .line 13
+    const-string v0, "field \'tabLayout\'"
+
+    invoke-virtual {p1, p3, v3, v0}, Lob/k;->a(Ljava/lang/Object;ILjava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/View;
+
+    .line 14
+    const-string v1, "field \'tabLayout\'"
+
+    invoke-virtual {p1, v0, v3, v1}, Lob/k;->a(Landroid/view/View;ILjava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/support/design/widget/TabLayout;
+
+    iput-object v0, p2, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;->tabLayout:Landroid/support/design/widget/TabLayout;
+
+    .line 15
+    const-string v0, "field \'mViewPager\'"
+
+    invoke-virtual {p1, p3, v4, v0}, Lob/k;->a(Ljava/lang/Object;ILjava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/View;
+
+    .line 16
+    const-string v1, "field \'mViewPager\'"
+
+    invoke-virtual {p1, v0, v4, v1}, Lob/k;->a(Landroid/view/View;ILjava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/support/v4/view/ViewPager;
+
+    iput-object v0, p2, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;->mViewPager:Landroid/support/v4/view/ViewPager;
+
+    .line 17
+    const-string v0, "field \'fab\'"
+
+    invoke-virtual {p1, p3, v5, v0}, Lob/k;->a(Ljava/lang/Object;ILjava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/view/View;
+
+    .line 18
+    const-string v1, "field \'fab\'"
+
+    invoke-virtual {p1, v0, v5, v1}, Lob/k;->a(Landroid/view/View;ILjava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/support/design/widget/FloatingActionButton;
+
+    iput-object v0, p2, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;->fab:Landroid/support/design/widget/FloatingActionButton;
+
+    .line 19
+    return-void
+.end method
+
+.method public bridge synthetic bind(Lob/k;Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 4
+
+    .prologue
+    .line 8
+    check-cast p2, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;
+
+    invoke-virtual {p0, p1, p2, p3}, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity$$ViewBinder;->bind(Lob/k;Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public unbind(Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;)V
+    .registers 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .prologue
+    const/4 v0, 0x0
+
+    .line 22
+    iput-object v0, p1, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;->toolbar:Landroid/support/v7/widget/Toolbar;
+
+    .line 23
+    iput-object v0, p1, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;->tabLayout:Landroid/support/design/widget/TabLayout;
+
+    .line 24
+    iput-object v0, p1, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;->mViewPager:Landroid/support/v4/view/ViewPager;
+
+    .line 25
+    iput-object v0, p1, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;->fab:Landroid/support/design/widget/FloatingActionButton;
+
+    .line 26
+    return-void
+.end method
+
+.method public bridge synthetic unbind(Ljava/lang/Object;)V
+    .registers 2
+
+    .prologue
+    .line 8
+    check-cast p1, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;
+
+    invoke-virtual {p0, p1}, Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity$$ViewBinder;->unbind(Lio/walletpasses/android/presentation/view/activity/CardGeneratorActivity;)V
+
+    return-void
+.end method
